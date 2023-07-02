@@ -8,7 +8,7 @@ WORKDIR /app
 COPY vocabualrio.py /app/vocabualrio.py
 COPY BinarySearchTree.py /app/BinarySearchTree.py
 COPY app.py /app/app.py
-COPY requirements.txt /app/requirements.txt
+COPY requirements.txt /requirements.txt
 
 # Instala las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
