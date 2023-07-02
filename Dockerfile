@@ -5,9 +5,9 @@ FROM python:3.9
 WORKDIR /app
 
 # Copia los archivos necesarios
-COPY vocabualrio.py /app/vocabualrio.py
-COPY BinarySearchTree.py /app/BinarySearchTree.py
-COPY app.py /app/app.py
+COPY app/vocabualrio.py /app/vocabualrio.py
+COPY app/BinarySearchTree.py /app/BinarySearchTree.py
+COPY app/app.py /app/app.py
 COPY requirements.txt /requirements.txt
 
 # Instala las dependencias
