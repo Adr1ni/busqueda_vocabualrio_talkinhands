@@ -15,10 +15,11 @@ def search():
     if not word:
         return jsonify(error='No se proporcionó ninguna palabra.')
 
-    found_word = search_word(bst,word)
+    found_word = search_word(bst, word)
 
     return jsonify(result=found_word)
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
+
