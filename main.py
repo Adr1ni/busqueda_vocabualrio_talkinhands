@@ -8,10 +8,6 @@ bst = BinarySearchTree()
 for word in result:
     bst.insert(word)
 
-@app.route("/")
-def index():
-    return "Usage: http://<hostname>[:<prt>]/api/<id>"
-
 @app.route('/search', methods=['GET'])
 def search():
     word = request.args.get('word', '').strip()
