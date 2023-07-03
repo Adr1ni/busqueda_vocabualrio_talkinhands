@@ -74,46 +74,5 @@ lista = [
     'vocabulario','windows',
 ]
 
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.left = None
-        self.right = None
-
-def insert(root, data):
-    if root is None:
-        return Node(data)
-    if data < root.data:
-        root.left = insert(root.left, data)
-    else:
-        root.right = insert(root.right, data)
-    return root
-
-def create_binary_search_tree(sorted_list, start, end):
-    if start > end:
-        return None
-    middle_index = (start + end) // 2
-    root = Node(sorted_list[middle_index])
-    root.left = create_binary_search_tree(sorted_list, start, middle_index - 1)
-    root.right = create_binary_search_tree(sorted_list, middle_index + 1, end)
-    return root
-
 orden = sorted(lista)
-raiz = create_binary_search_tree(orden, 0, len(orden) - 1)
-
-def preorder_traversal(root):
-    result = []
-    stack = []
-    node = root
-    while node or stack:
-        if node:
-            result.append(node.data)
-            stack.append(node)
-            node = node.left
-        else:
-            node = stack.pop()
-            node = node.right
-    return result
-
-result = preorder_traversal(raiz)
 

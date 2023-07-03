@@ -1,12 +1,10 @@
 from flask import Flask, jsonify, request
-from vocabualrio import result
-from BinarySearchTree import search_word, BinarySearchTree
+from vocabualrio import orden
+from BinarySearchTree import search_word, create_binary_search_tree
 
 app = Flask(__name__)
-bst = BinarySearchTree()
+bst = create_binary_search_tree(orden, 0, len(orden) - 1)
 
-for word in result:
-    bst.insert(word)
 
 @app.route('/search', methods=['GET'])
 def search():
