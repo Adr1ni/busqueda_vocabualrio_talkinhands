@@ -20,7 +20,8 @@ lista = [
     'chompa','chullo','collar','corbata','correa','falda','gorro','guantes','maleta','mandil',
     'medias','pantalon','pañuelo','parguas','pijama','polo','poncho','reloj','saco','short',
     'sombrero','sosten','uniforme','vestido','vincha','zapatilla','zapatos','ciruela','coco','durazno','fresas','limón','mandarina','mango','manzana','naranja','palta',
-    'papaya','pera','piña','platano', 'ajedrez','arbito','atletismo','automovilismo','avión','básquet','boxeo','capitán','ciclismo',
+    'papaya','pera','piña','platano', 'ajedrez','arbito','atletismo','automovilismo',
+    'avión','básquet','boxeo','capitán','ciclismo',
     'cubo','dados','estadio','fútbol','jugador','motociclismo','muñeca','pelota','pesca','ping'
     ,'pistola','reglamento','soga','soldado','tambor','tenis','tren','trompo','voleybol','yases',
     'adorar','aleluya','alma','altar','amen','amor','ángel','apóstol','arrepentida','ascensión',
@@ -41,7 +42,8 @@ lista = [
     'multiplicar','nacer','necesitar','obedecer','obligar','observar','olvidar','operar','ordernar','pensar',
     'perder','perdonar','perseguir','pintar','planchar','practicar','querer','quitar','recodar','rebalar',
     'respetar','respirar','rezar','robar','romper','saber','salir','saltar','saludar','sentarse','sentir',
-    'significar','soñar','sonreir','subir','telefonear','terminar','tirar','visitar','vivir','volar','adinerado','ágil','alegre','alto','amargo','antipático','asustado',
+    'significar','soñar','sonreir','subir','telefonear','terminar','tirar','visitar','vivir','volar',
+    'adinerado','ágil','alegre','alto','amargo','antipático','asustado',
     'bajo','bien','blando','bonita','brillo','bueno','callado','cansado','caro','celoso','cerrado','chismoso','claro',
     'cobarde','contento','corto','cuadrado','cualquier','despacio','diferente','divertido','dulce','egoísta','enamorado'
     ,'enfermo','estudioso','fácil','falso','falta','feliz','feo','flaco','fresco','frío','fuerte','fumador','gordo',
@@ -49,22 +51,27 @@ lista = [
     'mío','molesto','nervioso','oscuro','otro','paciencia','pequeño','pesado','pobre','preocupado','rápido','redondo',
     'rico','seco','sediento','sorprendido','suave','sucio','tacaño','tonto','torpe','tranquilo','triste','vergonzoso'
     ,'viejo','cerca','con','de','delante','dentro','detras','encima','entre','ese','hacia','junto','mucho',
-    'nada','por','si','siempre','solamente','solo','tampoco','verdad','y','áfrica','alemania','américa','argentina','bolivia','brasil','canadá','chile','china','colombia',
+    'nada','por','si','siempre','solamente','solo','tampoco','verdad','y','áfrica','alemania','américa','argentina',
+    'bolivia','brasil','canadá','chile','china','colombia',
     'cuba','ecuardor','egipto','españa','europa','francia','holanda','india','inglaterra','italia','méxico',
-    'oceanía','país','paraguay','perú','rusia','uruguay','venezuela','araña','bombero','búho','burro','caballo','chancho','chofer','cocodrilo','cóndor','conejo','culebra',
+    'oceanía','país','paraguay','perú','rusia','uruguay','venezuela','araña','bombero','búho','burro','caballo','chancho','chofer',
+    'cocodrilo','cóndor','conejo','culebra',
     'elefante','gallina','gallo','gato','gusano','jirafa','león','llama','loro','mariposa','mono','mosca','niñera',
-    'oso','oveja','pájaro','pato','pavo','perro','pescado','pollo','sapo','toro','tortuga','vaca','zancudo','zorro','abogado','albañil','carpintero','ingeniero','jardinero','juez','dentista','dibujante','director','doctor',
+    'oso','oveja','pájaro','pato','pavo','perro','pescado','pollo','sapo','toro','tortuga','vaca','zancudo',
+    'zorro','abogado','albañil','carpintero','ingeniero','jardinero','juez','dentista','dibujante','director','doctor',
     'electricista','ingeniero','jardinero','juez','mecánico','presidente','profesora','sacerdote',
     'sastre','secretaria','aeropuerto','amazonas','ancash','ate','avenida','ayacucho',
     'cajamarca','callao','cárcel','casa','cementerio','chiclayo','chorrillos','chosica','colegio','comas','comisaría','correos',
     'cusco','edificio','estadio','fábrica','hospital','huancavelica','huancayo','huánuco','ica','iglesia','iquitos','lima',
     'miraflores','municipalidad','puno','restaurant','rimac','surco','tacna','trujillo','tumbes','ucayali',
      'el','él','ella','ellas','ellos','guión','la','lo','los','mi','nosotros','paréntesis','punto',
-    'subrayado','tú','un','una','ustedes','yo','almohada','baño','basura','botella','caja','cama','casa','cepillo','champu','clóset','cocina','colcha','colchón','comedor','cuchara','cucharón','cuchillo','desodorante','dormitorio','ducha','escoba','espejo',
+    'subrayado','tú','un','una','ustedes','yo','almohada','baño','basura','botella','caja','cama','casa','cepillo','champu',
+    'clóset','cocina','colcha','colchón','comedor','cuchara','cucharón','cuchillo','desodorante','dormitorio','ducha','escoba','espejo',
     'frazada','funda','horno','jabón','jardín','lámpara','lavandería','licuado','llave','mantel','mesa','olla','pared','peine',
     'plato','puerta','radio','refrigeradora','reja','sábana','sala','sartén','servilleta','silla','sofá','talco','techo','teléfono','televisor',
     'tenedor','timbre','toalla','vaso','aire','árbol','calor','fresco','lluvia','luz','mar','montaña','mundo','neblina','nieve','nube','ola',
-    'piedra','rayo','río','sol','terremoto','tierra','universo','abrir','access','aceptar','alineacion','archivo','autoformato','calculadora','cancelar','cerrar','columna',
+    'piedra','rayo','río','sol','terremoto','tierra','universo','abrir','access','aceptar','alineacion','archivo','autoformato','calculadora',
+    'cancelar','cerrar','columna',
     'comando','comentario','computación','configuración','contraseña','correo','cortar','cursiva',
     'cursor','diskettera','encabezado','escape','estilo','excel','filas','filtro','flecha','formato',
     'formulario','fuente','guardar','hardware','hipervinculo','icono','impresora','inicio','internet',
@@ -75,4 +82,3 @@ lista = [
 ]
 
 orden = sorted(lista)
-

@@ -14,7 +14,7 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expone el puerto en el que se ejecutará la aplicación
-EXPOSE 5000
+EXPOSE 80
 
 # Establece el comando de inicio de la aplicación
 CMD ["python", "main.py"]

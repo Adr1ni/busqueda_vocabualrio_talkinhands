@@ -39,6 +39,3 @@ def search_word(bst, word):
     node = bst.search(bst,word)
     return node is not None
 
-
-
-
