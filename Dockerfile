@@ -5,7 +5,6 @@ FROM python:3.9
 WORKDIR /app
 
 # Copia los archivos necesarios
-COPY palabras.txt /app/palabras.txt
 COPY vocabualrio.py /app/vocabualrio.py
 COPY BinarySearchTree.py /app/BinarySearchTree.py
 COPY main.py /app/main.py
